@@ -1,0 +1,146 @@
+EJERCICIO: Insertar registros en la tabla Pais
+Deberás insertar países en la tabla Pais, aplicando el método explicado anteriormente con los siguientes valores:
+
+ARG Argentina
+
+BRA Brasil
+
+COL Colombia
+
+ESP España
+
+MEX México
+
+PER Perú
+
+EJERCICIO: Insertar nuevos Pacientes
+Deberás insertar 2 nuevos Pacientes, aplicando el método explicado en la clase anterior, con los siguientes valores:
+
+Claudio Lopez con DNI 27854236, fecha de nacimiento 18/02/2019, domicilio Piedras 2056, país Argentina, email clopez@gmail.com
+
+Carlos Ramirez con DNI 30251236, fecha de nacimiento 05/07/1982, domicilio Cerro negro 452, país Colombia, email cramirez@gmail.com
+
+El resto de los campos deberás insertarlos con valores NULL.
+
+Recuerda que el campo idPaciente se autocompleta por ser IDENTITY. No es necesario especificar un valor, solamente comprueba que al insertar un registro, el mismo se autoincrementa.
+
+Nota: Los valores del campo idPaciente pueden variar respecto a los generados en el curso, debido a su propiedad autoincremental IDENTITY y no afectan a los resultados de los ejercicios.
+
+
+EJERCICIO: Insertar un nuevo Médico
+Deberás insertar un nuevo Médico, aplicando el método explicado en la clase anterior, con los siguientes valores:
+
+Nombre y Apellido: Rafael Castelo
+
+Nota: Los valores del campo idMedico pueden variar respecto a los generados en el curso, debido a su propiedad autoincremental IDENTITY y no afectan a los resultados de los ejercicios.
+
+
+EJERCICIO: Insertar registros en la tabla TurnoEstado
+Deberás insertar registros en la tabla TurnoEstado, para ello debes utilizar valores posibles que comprendan desde 0 a 6 para el campo idEstado y cuyas descripciones deberán ser las siguientes y este mismo orden:
+
+Pendiente
+
+Realizado
+
+Cancelado
+
+Rechazado
+
+Postergado
+
+Anulado
+
+Derivado
+
+EJERCICIO: Insertar nuevos Turnos
+Deberás insertar 1 nuevo Turno, mediante el comando INSERT con los siguientes valores:
+
+En tabla TURNO
+
+Fecha de turno 15/03/2023 con estado 0 y observación "Paciente en ayunas"
+
+En tabla TURNOPACIENTE
+
+idTurno (el último idturno insertado en la tabla Turno)
+
+idPaciente (cualquier idPaciente existente en la tabla Paciente)
+
+idMedico (cualquier idMedico existente en la tabla Medico)
+
+Refuerza el ejercicio insertando tantos turnos como desees.
+
+
+EJERCICIO: Insertar registros en las tablas Pago, PagoPaciente y Concepto
+Deberás insertar:
+
+2 registros en la tabla Concepto
+
+3 registros en la tabla Pago
+
+3 registros en la tabla PagoPaciente
+
+
+
+Utilizando cualquiera de los dos métodos de Inserción (SSMS o comando) con los siguientes valores:
+
+En Tabla Concepto:
+
+Registro 1:
+
+Descripción > Laboratorio
+
+Registro 2:
+
+Descripción > Radiografía
+
+En tabla Pago:
+
+Registro 1:
+
+Concepto > Deberás colocar cualquiera de los idConcepto autogenerado en la tabla Concepto
+
+Fecha > 2019-02-15
+
+Monto > 4500
+
+Estado > 0
+
+Obs > Pago pendiente
+
+Registro 2:
+
+Concepto > Deberás colocar cualquiera de los idConcepto autogenerado en la tabla Concepto
+
+Fecha > 2019-05-20
+
+Monto > 6800
+
+Estado > 0
+
+Obs > Pago pendiente
+
+Registro 3:
+
+Concepto > Deberás colocar cualquiera de los idConcepto autogenerado en la tabla Concepto
+
+Fecha > 2019-09-27
+
+Monto > 5600
+
+Estado > 0
+
+Obs > Pago pendiente
+
+En Tabla PagoPaciente
+
+Registro 1:
+
+idPago > Deberás colocar cualquiera de los idPago autogenerado en la tabla Pago
+
+idPaciente > Deberás colocar cualquiera de los idPaciente autogenerado en la tabla Paciente
+
+IdTurno > Deberás colocar el idTurno autogenerado en la tabla Turno
+
+Registro 2: IDEM Registro 1
+
+Registro 3: IDEM Registro 1
