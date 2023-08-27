@@ -1,0 +1,3 @@
+SELECT * FROM Pago ORDER BY fecha
+
+SELECT TOP 1 * FROM Paciente ORDER BY fNacimiento DESC

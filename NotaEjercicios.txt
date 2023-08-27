@@ -144,3 +144,42 @@ IdTurno > Deberás colocar el idTurno autogenerado en la tabla Turno
 Registro 2: IDEM Registro 1
 
 Registro 3: IDEM Registro 1
+
+
+EJERCICIO: Insertar un nuevo Turno (Relacionado con la siguiente clase)
+Deberás insertar un nuevo Turno, utilizando cualquiera de los dos métodos de Inserción (SSMS o comando) con los siguientes valores:
+
+En Tabla Turno:
+
+Fecha de turno: 2019-01-22 10:00
+
+Estado: 0
+
+Observación: Turno pendiente de aprobación
+
+En Tabla TurnoPaciente
+
+idTurno: Deberás colocar el idTurno autogenerado en la tabla Turno
+
+idPaciente: Deberás colocar cualquiera de los idPaciente existente en la tabla Paciente
+
+idMedico: Deberás colocar cualquier idMedico existente en la tabla Medico
+
+
+
+Nota: Los valores de los campos idTurno, idPaciente e IdMedico, pueden variar respecto a los generados en el curso, debido a su propiedad autoincremental IDENTITY y no afectan a los resultados de los ejercicios.
+
+EJERCICIO: Eliminar Turno
+Para preservar la integridad referencial de los registros, deberás eliminar de la tabla Turno, el registro correspondiente al Turno eliminado en la tabla TurnoPaciente de la clase anterior.
+
+
+
+Nota importante: El no eliminar estos registros sin relación, no genera inconvenientes en la base de datos. Pero es recomendable hacerlo para evitar generar registros inconsistentes.
+
+Deberás establecer en SI la propiedad IDENTITY en el campo idEstado de la tabla TurnoEstado y guarda los cambios.
+
+Luego para comprobar la autonumeración del campo, inserta un nuevo registro en la Tabla con un nuevo estado que te imagines.
+
+Finalmente elimina ese único registro insertado con el método que prefieras.
+
+
