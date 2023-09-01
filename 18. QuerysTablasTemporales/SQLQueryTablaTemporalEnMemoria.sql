@@ -1,0 +1,9 @@
+DECLARE @mitabla TABLE (id int IDENTITY(1,1), pais varchar(50))
+
+INSERT INTO @mitabla VALUES ('MEXICO')
+INSERT INTO @mitabla VALUES ('PERU')
+INSERT INTO @mitabla VALUES ('ARGENTINA')
+INSERT INTO @mitabla VALUES ('COLOMBIA')
+INSERT INTO @mitabla VALUES ('ECUADOR')
+
+SELECT * FROM @mitabla
