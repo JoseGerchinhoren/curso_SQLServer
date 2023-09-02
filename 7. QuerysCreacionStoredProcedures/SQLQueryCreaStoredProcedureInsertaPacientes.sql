@@ -41,6 +41,6 @@ BEGIN
 END
 
 
-EXEC Alta_Paciente '2345354', 'Jorge', 'Lopez', '20180528', 'Calle 1', 'PER', '','jorgelopez@gmail.com',''
+EXEC Alta_Paciente '2121511', 'Jorge', 'Lopez', '20180528', 'Calle 1', 'MEX', '','jorgelopez@gmail.com',''
 
 SELECT * FROM Paciente
