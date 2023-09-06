@@ -1,0 +1,3 @@
+ROLES
+Son para administrar permisos y seguridad.
+Simplifican la asignacion y gestion de permisos a los usuarios y grupos de usuarios.
