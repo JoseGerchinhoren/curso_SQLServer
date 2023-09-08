@@ -30,10 +30,9 @@ Si encuentras algún error en las consultas o tienes sugerencias para mejorar es
 
 <img src="Certificado_Udemy_SQLServer.PNG" alt="Certificado Udemy SQL Server">
 
----
+<a href="https://www.udemy.com/certificate/UC-6e3e1f3c-158e-47cf-80c7-47441695a3c6/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">Link a certificado de finalización</a>
 
-Link a certificado de finalizacion:
-https://www.udemy.com/certificate/UC-6e3e1f3c-158e-47cf-80c7-47441695a3c6/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+
 
 ## Agradecimientos
 
@@ -43,6 +42,6 @@ Quiero agradecer a Mariano Puglisi por impartir este excelente curso en Udemy y 
 
 ¡Gracias por visitar este repositorio! Espero que estas consultas y recursos te sean útiles en tu aprendizaje de SQL Server. Si tienes alguna pregunta o comentario, no dudes en contactarme.
 
-Link al curso:
-https://www.udemy.com/course/master-sql-server/
+<a href="https://www.udemy.com/course/master-sql-server/" target="_blank">Link al curso</a>
+
 
