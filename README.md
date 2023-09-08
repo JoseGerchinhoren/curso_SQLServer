@@ -22,12 +22,6 @@ Dentro de cada carpeta de sección, las consultas etiquetadas para facilitar la 
 
 Puedes explorar las carpetas de sección para acceder a las consultas SQL relacionadas con cada tema. Si deseas practicar o revisar un tema específico, simplemente navega hasta la carpeta correspondiente y abre los archivos de consulta SQL.
 
-## Recursos Adicionales
-
-Además de las consultas SQL, aquí encontrarás otros recursos útiles:
-
-- **/Recursos**: Esta carpeta contiene documentos, notas o cualquier otro material adicional relacionado con el curso.
-
 ## Contribuciones
 
 Si encuentras algún error en las consultas o tienes sugerencias para mejorar este repositorio, ¡te animo a contribuir! Puedes abrir problemas (issues) o enviar solicitudes de extracción (pull requests) para proponer cambios.
