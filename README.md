@@ -10,8 +10,10 @@ Este curso me proporcionó una comprensión profunda de SQL Server, desde los co
 
 El repositorio está organizado de la siguiente manera:
 
--1. QuerysCreacionTablas
--2. QuerysSELECT-INSERT
+-1. QuerysCreacionTablas.
+
+-2. QuerysSELECT-INSERT.
+
 -N. Querys corresponientes a la seccion.
 
 Dentro de cada carpeta de sección, las consultas etiquetadas para facilitar la navegación y el aprendizaje.
